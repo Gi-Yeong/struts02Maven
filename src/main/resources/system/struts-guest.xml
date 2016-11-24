@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="ex1" namespace="/guest" extends="default">
+		<action name="list" class="com.hb.action.ListAction">
+			<result>/page/list.jsp</result>
+		</action>
+		<action name="detail" class="com.hb.action.DetailAction">
+			<result>/page/detail.jsp</result>
+		</action>
+		<action name="add" class="com.hb.action.ShowAction">
+			<result>/page/add.jsp</result>
+		</action>
+		<action name="insert" class="com.hb.action.AddAction">
+			<result type="chain">list</result>
+		</action>
+		<action name="edit" class="com.hb.action.DetailAction">
+			<result>/page/edit.jsp</result>
+		</action>
+		<action name="update" class="com.hb.action.UpdateAction">
+			<result type="chain">list</result>			
+		</action>
+		<action name="delete" class="com.hb.action.DeleteAction">
+			<result type="chain">list</result>			
+		</action>
+	</package>
+
+</struts>
+
+
+
+
+
+
+
