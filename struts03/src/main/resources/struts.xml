@@ -12,5 +12,20 @@
         <action name="detail" class="com.hb.action.OneAction">
             <result>/guest/detail.jsp</result>
         </action>
+        <action name="add" class="com.hb.action.AddAction" method="pShow">
+            <result name="input">/guest/addform.jsp</result>
+            <result name="success">/guest/addform.jsp</result>
+        </action>
+        <action name="insert" class="com.hb.action.AddAction" method="execute">
+            <result name="input">/guest/addform.jsp</result>
+            <result name="success" type="chain">list</result>
+        </action>
+        <action name="edit" class="com.hb.action.AddAction" method="pShow">
+            <result>/guest/editform.jsp</result>
+        </action>
+        <action name="update" class="com.hb.action.UpdateAction">
+            <result name="input">/guest/editform.jsp</result>
+            <result type="chain">list</result>
+        </action>
     </package>
 </struts>

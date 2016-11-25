@@ -12,7 +12,7 @@
 </head>
 <body>
 <div>
-    <a href="/struts/">HOME</a>
+    <a href="/index.jsp">HOME</a>
     <a href="list.action">LIST</a>
     <a href="add.action">ADD</a>
     <a href="/struts/user/login.action">LOGIN</a>
@@ -38,7 +38,7 @@
         </tr>
         <tr>
             <td colspan="2">
-                <a href="#">수 정</a>
+                <a href="edit.action?idx=${bean.sabun}">수 정</a>
                 <a href="#">삭 제</a>
             </td>
         </tr>
