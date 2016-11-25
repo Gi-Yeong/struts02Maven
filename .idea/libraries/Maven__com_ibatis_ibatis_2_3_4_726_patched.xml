@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ibatis:ibatis:2.3.4.726-patched">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ibatis/ibatis/2.3.4.726-patched/ibatis-2.3.4.726-patched.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ibatis/ibatis/2.3.4.726-patched/ibatis-2.3.4.726-patched-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ibatis/ibatis/2.3.4.726-patched/ibatis-2.3.4.726-patched-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
