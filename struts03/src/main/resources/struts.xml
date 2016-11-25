@@ -5,5 +5,12 @@
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
-
+    <package name="guest" extends="struts-default">
+        <action name="list" class="com.hb.action.ListAction">
+            <result>/guest/list.jsp</result>
+        </action>
+        <action name="detail" class="com.hb.action.OneAction">
+            <result>/guest/detail.jsp</result>
+        </action>
+    </package>
 </struts>

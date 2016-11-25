@@ -12,5 +12,6 @@
 </head>
 <body>
 <h1>Hello World</h1>
+<a href="list.action">입 장</a>
 </body>
 </html>
